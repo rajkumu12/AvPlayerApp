@@ -1,0 +1,223 @@
+Initialized native services in: /Users/vernikajain/.gradle/native
+Initialized jansi services in: /Users/vernikajain/.gradle/native
+Found daemon DaemonInfo{pid=2290, address=[a9f496a4-43aa-4456-8cb2-d699be3ac07c port:49441, addresses:[/127.0.0.1]], state=Idle, lastBusy=1779778447763, context=DefaultDaemonContext[uid=71adc015-4071-40ca-96f7-9e9d916de442,javaHome=/Applications/Android Studio.app/Contents/jbr/Contents/Home,javaVersion=21,javaVendor=JetBrains s.r.o.,daemonRegistryDir=/Users/vernikajain/.gradle/daemon,pid=2290,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=CA,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+JVM is incompatible.
+Wanted: DaemonRequestContext{jvmCriteria=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home (no JDK specified, using current Java home), daemonOpts=[-Xmx2048m, -Dfile.encoding=UTF-8, -Duser.country=CA, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+Actual: DefaultDaemonContext[uid=71adc015-4071-40ca-96f7-9e9d916de442,javaHome=/Applications/Android Studio.app/Contents/jbr/Contents/Home,javaVersion=21,javaVendor=JetBrains s.r.o.,daemonRegistryDir=/Users/vernikajain/.gradle/daemon,pid=2290,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=CA,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+The client will now receive all logging from the daemon (pid: 2792). The daemon log file: /Users/vernikajain/.gradle/daemon/9.1.0/daemon-2792.out.log
+Starting 2nd build in daemon [uptime: 3 mins 48.081 secs, performance: 98%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+Using 8 worker leases.
+Now considering [/Users/vernikajain/AndroidStudioProjects/InterViewPrepApp] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file '/Users/vernikajain/AndroidStudioProjects/InterViewPrepApp/settings.gradle.kts'.
+Projects loaded. Root project using build file '/Users/vernikajain/AndroidStudioProjects/InterViewPrepApp/build.gradle.kts'.
+Included projects: [root project 'InterViewPrepApp', project ':app', project ':core-common', project ':core-data', project ':core-domain', project ':core_ui', project ':feature-booking', project ':feature-home', project ':feature-login', project ':feature-player']
+
+> Configure project :
+Evaluating root project 'InterViewPrepApp' using build file '/Users/vernikajain/AndroidStudioProjects/InterViewPrepApp/build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '9.0.1', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.compose', version: '2.0.21', apply: false]
+Resolved plugin [id: 'com.android.library', version: '9.0.1', apply: false]
+Resolved plugin [id: 'com.google.dagger.hilt.android', version: '2.59.2', apply: false]
+Resolved plugin [id: 'com.google.devtools.ksp', version: '1.9.24-1.0.20', apply: false]
+
+> Configure project :app
+Evaluating project ':app' using build file '/Users/vernikajain/AndroidStudioProjects/InterViewPrepApp/app/build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '9.0.1']
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.compose', version: '2.0.21']
+Resolved plugin [id: 'com.google.dagger.hilt.android']
+Resolved plugin [id: 'com.google.devtools.ksp']
+WARNING: The option setting 'android.disallowKotlinSourceSets=false' is experimental.
+The current default is 'true'.
+Build 38c7836d-bd02-4eb2-b259-da75db358354 is started
+Using default execution profile
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+
+> Configure project :core-common
+Evaluating project ':core-common' using build file '/Users/vernikajain/AndroidStudioProjects/InterViewPrepApp/core-common/build.gradle.kts'.
+Resolved plugin [id: 'com.android.library', version: '9.0.1']
+Resolved plugin [id: 'com.google.dagger.hilt.android']
+Resolved plugin [id: 'com.google.devtools.ksp']
+Using default execution profile
+
+> Configure project :core-data
+Evaluating project ':core-data' using build file '/Users/vernikajain/AndroidStudioProjects/InterViewPrepApp/core-data/build.gradle.kts'.
+Resolved plugin [id: 'com.android.library', version: '9.0.1']
+Resolved plugin [id: 'com.google.dagger.hilt.android']
+Resolved plugin [id: 'com.google.devtools.ksp']
+Using default execution profile
+
+> Configure project :core-domain
+Evaluating project ':core-domain' using build file '/Users/vernikajain/AndroidStudioProjects/InterViewPrepApp/core-domain/build.gradle.kts'.
+Resolved plugin [id: 'com.android.library', version: '9.0.1']
+Resolved plugin [id: 'com.google.dagger.hilt.android']
+Resolved plugin [id: 'com.google.devtools.ksp']
+Using default execution profile
+
+> Configure project :core_ui
+Evaluating project ':core_ui' using build file '/Users/vernikajain/AndroidStudioProjects/InterViewPrepApp/core_ui/build.gradle.kts'.
+Resolved plugin [id: 'com.android.library', version: '9.0.1']
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.compose', version: '2.0.21']
+Using default execution profile
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+
+> Configure project :feature-booking
+Evaluating project ':feature-booking' using build file '/Users/vernikajain/AndroidStudioProjects/InterViewPrepApp/feature-booking/build.gradle.kts'.
+Resolved plugin [id: 'com.android.library', version: '9.0.1']
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.compose', version: '2.0.21']
+Resolved plugin [id: 'com.google.dagger.hilt.android']
+Resolved plugin [id: 'com.google.devtools.ksp']
+Using default execution profile
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+
+> Configure project :feature-home
+Evaluating project ':feature-home' using build file '/Users/vernikajain/AndroidStudioProjects/InterViewPrepApp/feature-home/build.gradle.kts'.
+Resolved plugin [id: 'com.android.library', version: '9.0.1']
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.compose', version: '2.0.21']
+Resolved plugin [id: 'com.google.dagger.hilt.android']
+Resolved plugin [id: 'com.google.devtools.ksp']
+Using default execution profile
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+
+> Configure project :feature-login
+Evaluating project ':feature-login' using build file '/Users/vernikajain/AndroidStudioProjects/InterViewPrepApp/feature-login/build.gradle.kts'.
+Resolved plugin [id: 'com.android.library', version: '9.0.1']
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.compose', version: '2.0.21']
+Resolved plugin [id: 'com.google.dagger.hilt.android']
+Resolved plugin [id: 'com.google.devtools.ksp']
+Using default execution profile
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+
+> Configure project :feature-player
+Evaluating project ':feature-player' using build file '/Users/vernikajain/AndroidStudioProjects/InterViewPrepApp/feature-player/build.gradle.kts'.
+Resolved plugin [id: 'com.android.library', version: '9.0.1']
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.compose', version: '2.0.21']
+Resolved plugin [id: 'com.google.dagger.hilt.android']
+Resolved plugin [id: 'com.google.devtools.ksp']
+Using default execution profile
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+All projects evaluated.
+Task path ':core-domain:kspDebugKotlin' matched project ':core-domain'
+Task name matched 'kspDebugKotlin'
+Selected primary task 'kspDebugKotlin' from project :core-domain
+Tasks to be executed: [task ':core-domain:preBuild', task ':core-domain:preDebugBuild', task ':core-domain:generateDebugResources', task ':core-domain:packageDebugResources', task ':core-domain:processDebugNavigationResources', task ':core-domain:parseDebugLocalResources', task ':core-domain:generateDebugRFile', task ':core-domain:kspDebugKotlin']
+Tasks that were excluded: []
+Resolve mutations for :core-domain:preBuild (Thread[Execution worker,5,main]) started.
+:core-domain:preBuild (Thread[Execution worker,5,main]) started.
+
+> Task :core-domain:preBuild UP-TO-DATE
+Skipping task ':core-domain:preBuild' as it has no actions.
+Resolve mutations for :core-domain:preDebugBuild (Thread[Execution worker,5,main]) started.
+:core-domain:preDebugBuild (Thread[Execution worker,5,main]) started.
+
+> Task :core-domain:preDebugBuild UP-TO-DATE
+Skipping task ':core-domain:preDebugBuild' as it has no actions.
+Resolve mutations for :core-domain:generateDebugResources (Thread[Execution worker,5,main]) started.
+:core-domain:generateDebugResources (Thread[Execution worker,5,main]) started.
+
+> Task :core-domain:generateDebugResources UP-TO-DATE
+Caching disabled for task ':core-domain:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':core-domain:generateDebugResources' as it is up-to-date.
+Resolve mutations for :core-domain:packageDebugResources (Thread[Execution worker,5,main]) started.
+:core-domain:packageDebugResources (Thread[Execution worker,5,main]) started.
+
+> Task :core-domain:packageDebugResources UP-TO-DATE
+Caching disabled for task ':core-domain:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':core-domain:packageDebugResources' as it is up-to-date.
+Resolve mutations for :core-domain:processDebugNavigationResources (Thread[Execution worker,5,main]) started.
+:core-domain:processDebugNavigationResources (Thread[Execution worker,5,main]) started.
+
+> Task :core-domain:processDebugNavigationResources UP-TO-DATE
+Caching disabled for task ':core-domain:processDebugNavigationResources' because:
+  Build cache is disabled
+Skipping task ':core-domain:processDebugNavigationResources' as it is up-to-date.
+Resolve mutations for :core-domain:parseDebugLocalResources (Thread[Execution worker,5,main]) started.
+:core-domain:parseDebugLocalResources (Thread[included builds,5,main]) started.
+
+> Task :core-domain:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':core-domain:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':core-domain:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :core-domain:generateDebugRFile (Thread[included builds,5,main]) started.
+:core-domain:generateDebugRFile (Thread[included builds,5,main]) started.
+
+> Task :core-domain:generateDebugRFile UP-TO-DATE
+Caching disabled for task ':core-domain:generateDebugRFile' because:
+  Build cache is disabled
+Skipping task ':core-domain:generateDebugRFile' as it is up-to-date.
+Resolve mutations for :core-domain:kspDebugKotlin (Thread[included builds,5,main]) started.
+:core-domain:kspDebugKotlin (Thread[included builds,5,main]) started.
+
+> Task :core-domain:kspDebugKotlin FAILED
+Caching disabled for task ':core-domain:kspDebugKotlin' because:
+  Build cache is disabled
+Task ':core-domain:kspDebugKotlin' is not up-to-date because:
+  Task has failed previously.
+The input changes require a full rebuild for incremental task ':core-domain:kspDebugKotlin'.
+file or directory '/Users/vernikajain/AndroidStudioProjects/InterViewPrepApp/core-domain/src/main/kotlin', not found
+file or directory '/Users/vernikajain/AndroidStudioProjects/InterViewPrepApp/core-domain/src/debug/java', not found
+file or directory '/Users/vernikajain/AndroidStudioProjects/InterViewPrepApp/core-domain/src/debug/kotlin', not found
+file or directory '/Users/vernikajain/AndroidStudioProjects/InterViewPrepApp/core-domain/src/main/kotlin', not found
+file or directory '/Users/vernikajain/AndroidStudioProjects/InterViewPrepApp/core-domain/src/debug/java', not found
+file or directory '/Users/vernikajain/AndroidStudioProjects/InterViewPrepApp/core-domain/src/debug/kotlin', not found
+i: [ksp] loaded provider(s): [dagger.hilt.processor.internal.uninstallmodules.KspUninstallModulesProcessor$Provider, dagger.hilt.android.processor.internal.viewmodel.KspViewModelProcessor$Provider, dagger.hilt.processor.internal.earlyentrypoint.KspEarlyEntryPointProcessor$Provider, dagger.hilt.android.processor.internal.androidentrypoint.KspAndroidEntryPointProcessor$Provider, dagger.hilt.processor.internal.definecomponent.KspDefineComponentProcessor$Provider, dagger.hilt.processor.internal.originatingelement.KspOriginatingElementProcessor$Provider, dagger.hilt.android.processor.internal.bindvalue.KspBindValueProcessor$Provider, dagger.hilt.processor.internal.root.KspComponentTreeDepsProcessor$Provider, dagger.hilt.processor.internal.root.KspRootProcessor$Provider, dagger.hilt.processor.internal.aliasof.KspAliasOfProcessor$Provider, dagger.hilt.processor.internal.aggregateddeps.KspAggregatedDepsProcessor$Provider, dagger.hilt.processor.internal.generatesrootinput.KspGeneratesRootInputProcessor$Provider, dagger.hilt.android.processor.internal.customtestapplication.KspCustomTestApplicationProcessor$Provider, dagger.internal.codegen.KspComponentProcessor$Provider]
+e: [ksp] InjectProcessingStep was unable to process 'GetLoginStateUseCase(PreferenceManager)' because 'PreferenceManager' could not be resolved.
+
+Dependency trace:
+    => element (CLASS): com.example.core_module.usecase.GetLoginStateUseCase
+    => element (CONSTRUCTOR): GetLoginStateUseCase(PreferenceManager)
+    => type (EXECUTABLE constructor): (PreferenceManager)void
+    => type (ERROR parameter type): PreferenceManager
+
+If type 'PreferenceManager' is a generated type, check above for compilation errors that may have prevented the type from being generated. Otherwise, ensure that type 'PreferenceManager' is on your classpath.
+e: [ksp] InjectProcessingStep was unable to process 'SaveLoginStateUseCase(PreferenceManager)' because 'PreferenceManager' could not be resolved.
+
+Dependency trace:
+    => element (CLASS): com.example.core_module.usecase.SaveLoginStateUseCase
+    => element (CONSTRUCTOR): SaveLoginStateUseCase(PreferenceManager)
+    => type (EXECUTABLE constructor): (PreferenceManager)void
+    => type (ERROR parameter type): PreferenceManager
+
+If type 'PreferenceManager' is a generated type, check above for compilation errors that may have prevented the type from being generated. Otherwise, ensure that type 'PreferenceManager' is on your classpath.
+Build 38c7836d-bd02-4eb2-b259-da75db358354 is closed
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':core-domain:kspDebugKotlin'.
+> A failure occurred while executing com.google.devtools.ksp.gradle.KspAAWorkerAction
+   > KSP failed with exit code: PROCESSING_ERROR
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 3s
+6 actionable tasks: 1 executed, 5 up-to-date
+Watched directory hierarchies: [/Users/vernikajain/AndroidStudioProjects/InterViewPrepApp]
